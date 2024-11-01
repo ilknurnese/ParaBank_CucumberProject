@@ -35,6 +35,18 @@ public class Elements extends Parent {
 
     @FindBy(xpath="//*[text()='Log Out']")
     public WebElement Log_Out;
+    //Us06
+    @FindBy(xpath = "//a[text()='Update Contact Info']")
+    public WebElement updateContactinfo;
+
+    @FindBy(name = "customer.phoneNumber")
+    public WebElement phonenumber;
+
+    @FindBy(xpath = "//input[@value='Update Profile']")
+    public WebElement updateProfileButton;
+
+    @FindBy(xpath = "//h1[text()='Profile Updated']")
+    public WebElement profileUpdated;
     
     //yusuf
 
