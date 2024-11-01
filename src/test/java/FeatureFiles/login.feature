@@ -6,7 +6,7 @@ Feature: Login
 
     And   Who user logs with the following information:
       | Username | Password |
-      | f | f |
+      | team3 | team31234 |
 
     And The user confirms that you successfully login.
     But user switches the session with the log out option.

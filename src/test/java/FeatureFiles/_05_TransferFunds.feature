@@ -1,10 +1,12 @@
 Feature: Transfer of Funds Functionality
-
   Background:
+    And   the user sees the "Customer Login" section on the home page.
 
-    Given Navigate to paraBank website
-    And Who user logs with the following information:
-      | f | f |
+    And   Who user logs with the following information:
+
+      | team3 | team31234 |
+
+    And The user confirms that you successfully login.
 
   Scenario: Transfer of Funds
     And User Opens a new Account

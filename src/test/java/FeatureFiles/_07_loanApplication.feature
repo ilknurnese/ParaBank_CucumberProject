@@ -1,5 +1,12 @@
 Feature: Loan application Functionality
+Background:
+  And   the user sees the "Customer Login" section on the home page.
 
+  And   Who user logs with the following information:
+
+    | team3 | team31234 |
+
+  And The user confirms that you successfully login.
 
 
 
