@@ -4,8 +4,8 @@
 - [Purpose of the Test](#purpose-of-the-test)
 - [Test Cases](#test-cases)
 - [Collaborators](#collaborators)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Project Repository](#project-repository)
+- [plugins](#plugins)
 - [Dependencies](#dependencies)
 - [License](#license)
 
@@ -39,19 +39,19 @@ Conduct both manual and automated testing of the ParaBank website to ensure that
 
 ---
 
-### Project Repository  
+## 💽 Project Repository  
 - **GitHub URL**: [ParaBank Cucumber Project](https://github.com/ilknurnese/ParaBank_CucumberProject)
 
 ---
 
-### Plugins Used
+## ⚒️ Plugins Used
 
 - **Gherkin**  
 - **Cucumber for Java**
 
 ---
 
-### Used Repositories
+## ⚙️ Used Repositories
 
 | Package      | Description                                                   |
 |--------------|---------------------------------------------------------------|
@@ -62,6 +62,6 @@ Conduct both manual and automated testing of the ParaBank website to ensure that
 
 ---
 
-### License
+## 📜 License
 
 This project is open-source software licensed under the **MIT License**.
