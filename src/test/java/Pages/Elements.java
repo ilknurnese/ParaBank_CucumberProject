@@ -35,18 +35,40 @@ public class Elements extends Parent {
 
     @FindBy(xpath="//*[text()='Log Out']")
     public WebElement Log_Out;
+
     //Us06
     @FindBy(xpath = "//a[text()='Update Contact Info']")
     public WebElement updateContactinfo;
 
-    @FindBy(name = "customer.phoneNumber")
+    @FindBy(xpath = "//input[@id='customer.firstName']")
+    public WebElement Firstname;
+
+    @FindBy(xpath = "//input[@id='customer.lastName']")
+    public WebElement Lastname;
+
+    @FindBy(xpath = "//input[@id='customer.address.street']")
+    public WebElement Address;
+
+    @FindBy(xpath = "//input[@id='customer.address.city']")
+    public WebElement City;
+
+    @FindBy(xpath = "//input[@id='customer.address.state']")
+    public WebElement State;
+
+
+    @FindBy(xpath = "//input[@id='customer.address.zipCode']")
+    public WebElement ZipCode;
+
+
+    @FindBy(xpath = "//input[@id='customer.phoneNumber']")
     public WebElement phonenumber;
 
     @FindBy(xpath = "//input[@value='Update Profile']")
     public WebElement updateProfileButton;
 
-    @FindBy(xpath = "//h1[text()='Profile Updated']")
+    @FindBy(xpath="//h1[text()='Profile Updated']")
     public WebElement profileUpdated;
+
     
     //yusuf
 
