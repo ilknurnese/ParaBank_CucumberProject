@@ -7,4 +7,4 @@ Feature: New Account Functionality
     Then  User should login successfully
     Examples:
       | firstName | lastName | addres | city | state | zipcode | SNN | userName | password | confirm |
-      | teschno | study | umraniye | istanbul | bos | yok | bilmem | team3 | team31234 | team31234 |
+      | teschno | study | umraniye | istanbul | bos | yok | bilmem | team31 | team31234 | team31234 |
