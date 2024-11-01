@@ -1,14 +1,14 @@
 package StepDefinitions;
 
-import Pages.Element;
-import Utility.GWD;
+import Pages.Elements;
+import Utilities.GWD;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 
 public class _01_createNewAccountStep {
-    Element element =new Element();
+    Elements element =new Elements();
 
     @Given("Navigate to paraBank website")
     public void navigate_to_para_bank_website() {

@@ -1,13 +1,13 @@
 package StepDefinitions;
 
 
-import Pages.Element;
+import Pages.Elements;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.testng.Assert;
 
 public class _07_requestLoanSteps {
-    Element element=new Element();
+    Elements element=new Elements();
     @Given("navigate to the request loan")
     public void navigateToTheRequestLoan() {
         element.myClick(element.requestLoan);

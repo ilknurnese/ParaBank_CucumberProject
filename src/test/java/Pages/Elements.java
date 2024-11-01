@@ -1,12 +1,14 @@
 package Pages;
 
-import Utility.GWD;
+import Utilities.GWD;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Element extends ParentPage{
-    public Element() {
+import java.util.List;
+
+public class Elements extends Parent {
+    public Elements() {
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
@@ -105,6 +107,53 @@ public WebElement singIng2;
 public WebElement loginSuccessfuly;
 
 
+//neşe
+
+    @FindBy(xpath = "//a[normalize-space()='Open New Account']")
+    public WebElement openNewAccountLinkTF;
+
+    @FindBy(xpath = "//input[@value='Open New Account']")
+    public WebElement openNewAccountButtonTF;
+
+    @FindBy(id = "type")
+    public WebElement dropdownAccountType;
+
+    @FindBy(xpath = "//select[@id='fromAccountId']")
+    public WebElement dropdownExistingAccountID;
+
+    @FindBy(xpath = "//a[normalize-space()='Accounts Overview']")
+    public WebElement accountsOverviewTF;
+
+    @FindBy(xpath = "//h1[normalize-space()='Account Opened!']")
+    public WebElement accountOpenedTextTF;
+
+    @FindBy(id = "newAccountId")
+    public WebElement newAccountIDTF;
+
+    @FindBy(xpath = "//a[normalize-space()='Transfer Funds']")
+    public WebElement transferFundsLinkTF;
+
+    @FindBy(xpath = "//input[@id='amount']")
+    public WebElement amountInputBoxTF;
+
+    @FindBy(xpath = "//select[@id='fromAccountId']")
+    public WebElement dropdownFromAccountIDTF;
+
+    @FindBy(xpath = "//select[@id='toAccountId']/option")
+    public WebElement dropdownToAccountIDTF;
+
+    @FindBy(xpath = "//select[@id='fromAccountId']/option")
+    public List<WebElement> dropdownFromAccountOptionsTF;
+
+    @FindBy(xpath = "//select[@id='toAccountId']/option")
+    public List<WebElement> dropdownToAccountOptionsTF;
+
+    @FindBy(xpath = "//input[@value='Transfer']")
+    public WebElement transferButtonTF;
+
+    @FindBy(xpath = "//h1[normalize-space()='Transfer Complete!']")
+    public WebElement transferComleteTextTF;
+
 
 
 
@@ -122,5 +171,9 @@ public WebElement loginSuccessfuly;
 
         return null;
     }
+
+
+
+
 
 }
