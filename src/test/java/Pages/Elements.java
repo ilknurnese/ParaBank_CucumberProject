@@ -12,6 +12,32 @@ public class Elements extends Parent {
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
+
+    //betul
+
+    @FindBy(xpath="//*[text()='Customer Login']")
+    public WebElement customer_login;
+
+    @FindBy(name="username")
+    public WebElement login_username;
+
+    @FindBy(name="password")
+    public WebElement login_password;
+
+    @FindBy(xpath = "//*[@value='Log In']")
+    public WebElement login_button;
+
+    @FindBy(xpath = "//*[text()='Welcome']")
+    public WebElement login_wellcome;
+
+    @FindBy(xpath = "//*[@class='error']")
+    public WebElement login_error;
+
+    @FindBy(xpath="//*[text()='Log Out']")
+    public WebElement Log_Out;
+    
+    //yusuf
+
     @FindBy(xpath = "//a[text()='Register']")
     public WebElement firstRegisterButton;
 
